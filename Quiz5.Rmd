@@ -1,0 +1,17 @@
+---
+title: "Quiz5"
+author: ""
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rstanarm)
+options(mc.cores = parallel::detectCores())
+```
+
+### 1. 
+Follow the directions to install stan and `rstan` [https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started). Verify your installation by running `example(stan_model, package = "rstan", run.dontrun = TRUE)`
+
+Note a future HW assignment will use `rstan`
